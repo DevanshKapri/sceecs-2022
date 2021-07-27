@@ -476,5 +476,10 @@ Primary use:
 
 body {
   height: 100%;
-  overflow: hidden;
+  overflow-y: hidden;
+}
+
+html 
+{
+  overflow-y: hidden;
 }
