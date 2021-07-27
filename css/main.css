@@ -472,3 +472,7 @@ Primary use:
     font-size: 8px;
   }
 }
+
+div {
+  overflow:  hidden;
+}
