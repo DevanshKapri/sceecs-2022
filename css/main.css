@@ -482,4 +482,5 @@ body {
 html 
 {
   overflow-y: hidden;
+  z-index: 999;
 }
