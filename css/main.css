@@ -436,7 +436,7 @@ Primary use:
 
 #footer {
   bottom: 0;
-  position: absolute;
+  position: fixed;
   width: 100vw;
   line-height: 1.5;
   display: flex;
@@ -474,6 +474,6 @@ Primary use:
   }
 }
 
-html {
-  overflow: hidden;
+body {
+  height: 100vh;
 }
