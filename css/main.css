@@ -446,12 +446,15 @@ Primary use:
   background: rgba(19, 19, 19, 0.4);
   font-family: inherit;
   font-size: 14px;
-  padding: 30px;
+  padding: 20px;
   font-weight: 400;
 }
 
 @media(max-width: 600px)
 {
+  .size1 {
+    padding-bottom: 0px;
+  }
   #footer {
     padding: 10px;
     font-size: 12px;
