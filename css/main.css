@@ -454,6 +454,7 @@ Primary use:
 {
   .size1 {
     padding-bottom: 0px;
+    padding-top: 0px;
   }
   #footer {
     padding: 10px;
@@ -465,6 +466,7 @@ Primary use:
 {
   .size1 {
     padding-bottom: 0px;
+    padding-top: 0px;
   }
   #footer {
     font-size: 8px;
