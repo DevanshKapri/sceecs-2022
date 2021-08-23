@@ -428,6 +428,10 @@ fieldset[disabled] .s-btn {
     border-bottom: none;
 }
 
+.previousspeakers {
+    padding-bottom: 80px;
+}
+
 
 /*----------------------------------
   Form Input
@@ -470,6 +474,11 @@ fieldset[disabled] .s-btn {
     box-shadow: none;
     border-color: #fff;
     background: rgba(255, 255, 255, 0.1);
+}
+
+.eventsec {
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 
@@ -1043,6 +1052,9 @@ fieldset[disabled] .s-btn {
     .s-mockup-v1 {
         width: 100%;
         height: auto;
+    }
+    .eventsec {
+        height: 1150px;
     }
 }
 
@@ -2626,7 +2638,6 @@ fieldset[disabled] .s-btn {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Belmonte-Rough&display=swap');
-
 .info-column {
     position: relative;
 }
@@ -2636,7 +2647,6 @@ fieldset[disabled] .s-btn {
     padding-top: 30px;
     margin-left: auto;
 }
-
 
 @font-face {
     font-family: 'Belmonte-Rough';
@@ -2686,6 +2696,7 @@ fieldset[disabled] .s-btn {
     color: #ff006a;
     background: none;
 }
+
 
 /***====================================================================
 	Events Section
@@ -2832,6 +2843,7 @@ fieldset[disabled] .s-btn {
 .events-section .events-info-tabs .events-tabs .tabs-content .buttons-box .theme-btn {
     padding: 11px 30px;
 }
+
 
 /* Event Block */
 
@@ -3038,6 +3050,7 @@ fieldset[disabled] .s-btn {
     margin-top: 10px;
 }
 
+
 /*** 
 
 /*** 
@@ -3130,21 +3143,19 @@ fieldset[disabled] .s-btn {
     color: #ffffff;
 }
 
-
 @media only screen and (max-width: 599px) {
     .events-section .events-info-tabs .events-tabs .tab-btns .tab-btn {
         margin-left: 0px;
         margin-right: 0px;
         width: 100%;
     }
-    .sec-title h2{
+    .sec-title h2 {
         font-size: 32px;
     }
     .event-block .inner-box {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-
 }
 
 @media only screen and (max-width: 1023px) {
@@ -3182,6 +3193,7 @@ fieldset[disabled] .s-btn {
         display: block;
     }
 }
+
 
 /*** 
 
@@ -3429,6 +3441,7 @@ fieldset[disabled] .s-btn {
     margin: 0 auto;
     text-align: center;
 }
+
 .auto-container {
     position: static;
     max-width: 1200px;
@@ -3458,7 +3471,9 @@ fieldset[disabled] .s-btn {
 }
 
 .resp {
-    position: absolute; bottom: -1.25rem; right: -1.25rem;
+    position: absolute;
+    bottom: -1.25rem;
+    right: -1.25rem;
 }
 
 @media only screen and (max-width: 767px) {
@@ -3532,6 +3547,7 @@ fieldset[disabled] .s-btn {
     display: block;
     width: 100%;
 }
+
 
 /*Content Column*/
 
@@ -3616,7 +3632,6 @@ fieldset[disabled] .s-btn {
     }
 }
 
-
 @media only screen and (max-width: 1023px) {
     fluid-section-one .image-column .image,
     .banner-section-two .image-column .image {
@@ -3632,7 +3647,6 @@ fieldset[disabled] .s-btn {
     }
     .fluid-section-one .content-column .content-box {
         padding-left: 15px;
-    
     }
 }
 
@@ -3651,8 +3665,3 @@ fieldset[disabled] .s-btn {
         padding-bottom: 0rem !important;
     }
 }
-    
-
-
-
-    
