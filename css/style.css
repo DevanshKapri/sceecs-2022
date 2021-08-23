@@ -2637,7 +2637,13 @@ fieldset[disabled] .s-btn {
     background: #13b1cd;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Belmonte-Rough&display=swap');
+@font-face {
+    font-family: 'Belmonte-Rough';
+    src: url('../fonts/BelmonteRough.woff2') format('woff2'), url('../fonts/BelmonteRough.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .info-column {
     position: relative;
 }
@@ -2648,12 +2654,6 @@ fieldset[disabled] .s-btn {
     margin-left: auto;
 }
 
-@font-face {
-    font-family: 'Belmonte-Rough';
-    src: url('../fonts/BelmonteRough.woff2') format('woff2'), url('../fonts/BelmonteRough.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 .info-column .list {
     position: relative;
@@ -2679,6 +2679,15 @@ fieldset[disabled] .s-btn {
     background: url(../img/icons/icon-3.png) no-repeat;
 }
 
+@media only screen and (max-width: 399px) {
+    .swiper-wrapper .info-column {
+        display: none;
+    }
+}
+
+
+
+
 .btn-style-one {
     position: relative;
     line-height: 24px;
@@ -2696,6 +2705,8 @@ fieldset[disabled] .s-btn {
     color: #ff006a;
     background: none;
 }
+
+
 
 
 /***====================================================================
